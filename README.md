@@ -1,1 +1,3 @@
-# mila-gba
+# Mila GBA
+
+A rabbit adventure for Gameboy Advance

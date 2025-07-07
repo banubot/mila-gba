@@ -8,12 +8,8 @@
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [
-    "dmg"
-  ],
-  "spritePaletteIds": [
-    "default-bg-4"
-  ],
+  "paletteIds": [],
+  "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",

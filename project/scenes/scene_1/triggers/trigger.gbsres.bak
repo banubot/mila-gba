@@ -1,0 +1,24 @@
+{
+  "_resourceType": "trigger",
+  "id": "a3181ff6-e592-4932-aec8-3e3d5d7bc6cf",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 7,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "1c079365-6529-4658-bbcd-d928fa85cde4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

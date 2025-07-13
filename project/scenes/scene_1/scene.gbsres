@@ -3,10 +3,10 @@
   "id": "ae2404aa-4b60-444e-a407-256f8d53e81f",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "c25f4fdb-969e-469b-bbe7-100ad90af3c4",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "TOPDOWN",
   "paletteIds": [
     "dmg"
@@ -14,7 +14,7 @@
   "spritePaletteIds": [
     "default-bg-4"
   ],
-  "collisions": "",
+  "collisions": "00400+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 260,

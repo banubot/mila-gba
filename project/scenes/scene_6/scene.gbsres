@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "23506201-b562-4184-87d8-ce6aecded2bd",
+  "_index": 5,
+  "name": "Scene 6",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 566,
+  "y": 462,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "0b492c46-b077-423c-a285-9c050ae5e261",
-  "_index": 6,
-  "name": "Scene 7",
+  "id": "23506201-b562-4184-87d8-ce6aecded2bd",
+  "_index": 5,
+  "name": "Icecream Parlor",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -12,11 +12,12 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 60,
-  "y": 528,
+  "symbol": "scene_6",
+  "x": 566,
+  "y": 462,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "97f4c2c0-1641-45a7-973a-3ff28354b330"
 }

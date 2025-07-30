@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "872bd0d6-3581-43d7-ad05-cd5d2720554d",
-  "_index": 7,
-  "name": "Scene 8",
+  "id": "0e11d735-dc87-45b2-bda2-681cdf62daa8",
+  "_index": 3,
+  "name": "Store",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -12,11 +12,12 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_8",
-  "x": 271,
-  "y": 534,
+  "symbol": "scene_4",
+  "x": 528,
+  "y": 224,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "97f4c2c0-1641-45a7-973a-3ff28354b330"
 }

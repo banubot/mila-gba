@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "62806b12-ab9f-4fa7-8155-39cb296a0577",
+  "_index": 8,
+  "name": "Main 2",
+  "backgroundId": "67b12265-9616-4209-867f-577233624761",
+  "tilesetId": "",
+  "width": 33,
+  "height": 30,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-sprite"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f3+003+0f1e+003+0f1e+003+0f1e+001b+0f6+001b+0f6+001b+0f6+0014+0f3+004+0f6+0014+0f3+004+0f6+0015+0f!005+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001e+0f3+001e+0f3+001e+0f3+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f6+001b+0f66+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 257.8312287636082,
+  "y": 538.9806699292385,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "97f4c2c0-1641-45a7-973a-3ff28354b330"
+}

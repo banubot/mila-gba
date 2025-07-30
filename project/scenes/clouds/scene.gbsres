@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "23506201-b562-4184-87d8-ce6aecded2bd",
-  "_index": 5,
-  "name": "Scene 6",
+  "id": "20a3553e-0dda-42b2-8e23-89ea656c6c33",
+  "_index": 4,
+  "name": "Clouds",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -12,11 +12,12 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_6",
-  "x": 566,
-  "y": 462,
+  "symbol": "scene_5",
+  "x": 64,
+  "y": 616,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "97f4c2c0-1641-45a7-973a-3ff28354b330"
 }

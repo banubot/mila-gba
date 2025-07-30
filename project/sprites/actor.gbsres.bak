@@ -5,7 +5,7 @@
   "symbol": "sprite_actor",
   "numFrames": 3,
   "filename": "actor.png",
-  "checksum": "779fb304850aadfa40a65111a1c6b6c51e0d0009",
+  "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
   "width": 48,
   "height": 16,
   "states": [

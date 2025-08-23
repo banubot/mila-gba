@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "27784af3-f571-4e27-8409-dfe4e5b4a323",
+  "name": "main_sq",
+  "symbol": "bg_main_sq",
+  "width": 33,
+  "height": 30,
+  "imageWidth": 264,
+  "imageHeight": 240,
+  "filename": "main_sq.png",
+  "tileColors": ""
+}

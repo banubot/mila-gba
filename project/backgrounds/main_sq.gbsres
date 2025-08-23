@@ -8,5 +8,6 @@
   "imageWidth": 264,
   "imageHeight": 240,
   "filename": "main_sq.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

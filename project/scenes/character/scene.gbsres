@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "8e62423a-5441-4f34-8348-749b93f8c1e1",
+  "_index": 10,
+  "name": "Character",
+  "backgroundId": "dc27ded0-6f6b-4c7c-96e2-9cfe6a645199",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 60,
+  "y": 416,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c46439d0-0b6c-485b-b280-a1dbba28b1a1"
+}

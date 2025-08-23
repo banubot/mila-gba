@@ -1,0 +1,103 @@
+{
+  "_resourceType": "script",
+  "id": "41fd81d9-9703-4957-8140-4c1a8ea9b551",
+  "name": "Set Character Sprite",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 11
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "7c79c50e-5c19-4ac8-90fe-b0ab76fa46e6"
+            },
+            "id": "50370c7c-7ae9-49b4-9f44-079919ef773b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 12
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "4642755b-dc24-44bd-8566-66a1efff8ebf"
+                  },
+                  "id": "c108500f-b9b8-4e20-9256-63a67efe5aad"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 13
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "f93d64c2-cf66-49b8-8436-72e6f5da86a8"
+                        },
+                        "id": "74e1b4d2-5179-4f48-841d-81badf893378"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "62cb2504-5ee2-4410-bdc7-b335997c17e8"
+                }
+              ]
+            },
+            "id": "b80998b7-b415-4a5a-b611-692fec96e339"
+          }
+        ]
+      },
+      "id": "c8f70ba3-7667-4f16-828d-ca6ebd424c3d"
+    }
+  ]
+}

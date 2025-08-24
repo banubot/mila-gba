@@ -141,7 +141,131 @@
                                     "id": "6e7f1023-9167-4820-a6b9-951776b3b3c2"
                                   }
                                 ],
-                                "false": []
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "condition": {
+                                        "type": "eq",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "0"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 23
+                                        }
+                                      },
+                                      "__collapseElse": false
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_PLAYER_SET_SPRITE",
+                                          "args": {
+                                            "spriteSheetId": "a479ba83-b743-429c-a663-4674aa8cb1b0"
+                                          },
+                                          "id": "b080f122-3ac8-408e-83f8-ae60c277b4cd"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "condition": {
+                                              "type": "eq",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "0"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 31
+                                              }
+                                            },
+                                            "__collapseElse": false
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                                "args": {
+                                                  "spriteSheetId": "4542bd91-39c9-49d6-915b-41262953bdf1"
+                                                },
+                                                "id": "140d4d63-608d-4304-a105-635bb14ed9a8"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "condition": {
+                                                    "type": "eq",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "0"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 32
+                                                    }
+                                                  },
+                                                  "__collapseElse": false
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_PLAYER_SET_SPRITE",
+                                                      "args": {
+                                                        "spriteSheetId": "ed878c66-8f15-4eb2-9310-77fce5401212"
+                                                      },
+                                                      "id": "7ba12746-c98b-4b79-8bf5-f6dc0c1d5028"
+                                                    }
+                                                  ],
+                                                  "false": [
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "condition": {
+                                                          "type": "eq",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "0"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 33
+                                                          }
+                                                        },
+                                                        "__collapseElse": true
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_PLAYER_SET_SPRITE",
+                                                            "args": {
+                                                              "spriteSheetId": "63008fcc-2653-4ff0-a97c-daca03df33ef"
+                                                            },
+                                                            "id": "bb95dbfd-7a01-412c-a8d2-868670a5f42e"
+                                                          }
+                                                        ],
+                                                        "false": []
+                                                      },
+                                                      "id": "871a02c0-9203-4505-acf6-f4eccefc92d8"
+                                                    }
+                                                  ]
+                                                },
+                                                "id": "f9c4206d-55f0-4122-998a-db537f8868ea"
+                                              }
+                                            ]
+                                          },
+                                          "id": "a64afa0a-e9aa-42ed-948b-361fac991f17"
+                                        }
+                                      ]
+                                    },
+                                    "id": "a772bd3c-2a86-42f3-aa12-0ef239b1f60d"
+                                  }
+                                ]
                               },
                               "id": "b7a15032-1393-4270-b131-9d509353a04a"
                             }

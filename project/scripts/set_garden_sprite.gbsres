@@ -1,0 +1,79 @@
+{
+  "_resourceType": "script",
+  "id": "39aa8c55-c8dd-4be1-81f5-78c9660fa8d8",
+  "name": "Set Garden Sprite",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "ae93ff87-a81e-444f-a95d-be21910675b7"
+            },
+            "id": "0e9439bd-563b-4ef0-a01b-704f6694891e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "6"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_SPRITE",
+                  "args": {
+                    "actorId": "0",
+                    "spriteSheetId": "973da58a-a61d-4e0d-96c1-dfe7d79f0ac6"
+                  },
+                  "id": "0f350297-8fe0-423c-9447-a6b3495ddb32"
+                }
+              ],
+              "false": []
+            },
+            "id": "7aa63a5b-0c05-4c3d-9bc5-1be3a99e7808"
+          }
+        ]
+      },
+      "id": "2c4172dd-ada1-4766-9f37-254ea205387a"
+    }
+  ]
+}

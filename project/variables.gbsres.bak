@@ -5,6 +5,51 @@
       "id": "a727e89e-4d3a-4262-8cd0-4fbdfe8923e6__L0",
       "name": "MenuChoice",
       "symbol": "var_menuchoice"
+    },
+    {
+      "id": "9b06381f-2f6d-48fe-ac9b-889e2a6edec3__L0",
+      "name": "variable0",
+      "symbol": "var_variable0"
+    },
+    {
+      "id": "0",
+      "name": "Character Sprite",
+      "symbol": "var_character_sprite"
+    },
+    {
+      "id": "1",
+      "name": "Carrot Seeds",
+      "symbol": "var_carrot_seeds"
+    },
+    {
+      "id": "2",
+      "name": "Tomato Seeds",
+      "symbol": "var_tomato_seeds"
+    },
+    {
+      "id": "3",
+      "name": "Lettuce Seeds",
+      "symbol": "var_lettuce_seeds"
+    },
+    {
+      "id": "4",
+      "name": "Potato Seeds",
+      "symbol": "var_potato_seeds"
+    },
+    {
+      "id": "5",
+      "name": "Onion Seeds",
+      "symbol": "var_onion_seeds"
+    },
+    {
+      "id": "61506c3f-aa05-47c6-8006-2cbd0c824ba6__L0",
+      "name": "seed choice",
+      "symbol": "var_seed_choice"
+    },
+    {
+      "id": "6",
+      "name": "Garden Stage 11",
+      "symbol": "var_garden_stage_11"
     }
   ]
 }

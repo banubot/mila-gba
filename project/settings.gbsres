@@ -36,11 +36,11 @@
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
     "TOPDOWN": "f00d15b0-7c0a-432a-a1d3-cf4fff90d464",
-    "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+    "PLATFORM": "4542bd91-39c9-49d6-915b-41262953bdf1",
+    "ADVENTURE": "ed878c66-8f15-4eb2-9310-77fce5401212",
+    "SHMUP": "63008fcc-2653-4ff0-a97c-daca03df33ef",
+    "POINTNCLICK": "f93d64c2-cf66-49b8-8436-72e6f5da86a8",
+    "LOGO": "c4161259-5f38-4c0c-865f-57c40bb531ae"
   },
   "musicDriver": "huge",
   "cartType": "mbc5",

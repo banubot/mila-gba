@@ -3,19 +3,60 @@
   "id": "872bd0d6-3581-43d7-ad05-cd5d2720554d",
   "_index": 7,
   "name": "Garden",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "9e0adecc-1495-4b49-9271-0edee08f7022",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "dmg",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "dmg"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 560,
   "y": 248,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "41fd81d9-9703-4957-8140-4c1a8ea9b551"
+      },
+      "id": "afe25e4d-4f7a-4521-bedf-729f1836a537"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Press A to grow \nvegetables."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f95dfdd2-c091-4f7c-a4fa-44b4911031da"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

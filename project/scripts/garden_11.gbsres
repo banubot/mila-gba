@@ -1,0 +1,74 @@
+{
+  "_resourceType": "script",
+  "id": "548fe106-6ba6-4613-84cb-2d03aeed8664",
+  "name": "Garden 11",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4a833a70-d493-464e-8e46-138a95ff56f7",
+              "$actor[0]$": "0"
+            },
+            "id": "13ae16f7-f620-4089-af15-41cf0ab57fb6"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "6"
+            },
+            "id": "e08147f4-8881-4645-ae74-6adf32b948f6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0a08cce3-03d5-4938-9cfe-34daab7022ad",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "$actor[0]$": "0"
+            },
+            "id": "fe4c839c-7045-476e-ad5e-1eb092a3507b"
+          }
+        ]
+      },
+      "id": "193cbf25-26f6-4767-9762-b1b34dd84351"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9e0adecc-1495-4b49-9271-0edee08f7022",
+  "name": "garden",
+  "symbol": "bg_garden",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "garden.png",
+  "tileColors": ""
+}

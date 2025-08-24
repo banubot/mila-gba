@@ -28,6 +28,19 @@
       "id": "27d26356-b02a-4aa9-a50c-6e0ce26e9386"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "f2c047bb-2915-42cf-97a4-bced0906eccf"
+    }
+  ],
   "_index": 0
 }

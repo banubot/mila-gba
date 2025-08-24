@@ -15,6 +15,81 @@
       "id": "0",
       "name": "Character Sprite",
       "symbol": "var_character_sprite"
+    },
+    {
+      "id": "1",
+      "name": "Carrot Seeds",
+      "symbol": "var_carrot_seeds"
+    },
+    {
+      "id": "2",
+      "name": "Tomato Seeds",
+      "symbol": "var_tomato_seeds"
+    },
+    {
+      "id": "3",
+      "name": "Lettuce Seeds",
+      "symbol": "var_lettuce_seeds"
+    },
+    {
+      "id": "4",
+      "name": "Potato Seeds",
+      "symbol": "var_potato_seeds"
+    },
+    {
+      "id": "5",
+      "name": "Onion Seeds",
+      "symbol": "var_onion_seeds"
+    },
+    {
+      "id": "61506c3f-aa05-47c6-8006-2cbd0c824ba6__L0",
+      "name": "seed choice",
+      "symbol": "var_seed_choice"
+    },
+    {
+      "id": "6",
+      "name": "Garden Stage 11",
+      "symbol": "var_garden_stage_11"
+    },
+    {
+      "id": "7",
+      "name": "Garden Stage 12",
+      "symbol": "var_garden_stage_12"
+    },
+    {
+      "id": "8",
+      "name": "Garden Stage 13",
+      "symbol": "var_garden_stage_13"
+    },
+    {
+      "id": "9",
+      "name": "Garden Stage 21",
+      "symbol": "var_garden_stage_21"
+    },
+    {
+      "id": "10",
+      "name": "Garden Stage 22",
+      "symbol": "var_garden_stage_22"
+    },
+    {
+      "id": "11",
+      "name": "Garden Stage 23",
+      "symbol": "var_garden_stage_23"
+    },
+    {
+      "id": "12",
+      "name": "Garden Stage 31",
+      "symbol": "var_garden_stage_31"
+    },
+    {
+      "id": "13",
+      "name": "Garden Stage 32",
+      "symbol": "var_garden_stage_32"
+    },
+    {
+      "id": "14",
+      "name": "Garden Stage 33",
+      "symbol": "var_garden_stage_33"
     }
   ]
 }

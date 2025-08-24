@@ -1,0 +1,187 @@
+{
+  "_resourceType": "script",
+  "id": "0db73780-adff-43d9-8c22-d0ac7857a96f",
+  "name": "Garden 12",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor B"
+    }
+  },
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4a833a70-d493-464e-8e46-138a95ff56f7"
+            },
+            "id": "d654e6d0-a406-4f84-ad20-265479f15919"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "7"
+            },
+            "id": "889bf650-ae77-4bde-b8d0-5a2c86990207"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "V0",
+              "items": 8,
+              "option1": "carrot",
+              "option2": "lettuce",
+              "option3": "onion",
+              "option4": "potato",
+              "option5": "tomato",
+              "option6": "bok choi",
+              "option7": "radish",
+              "option8": "celery",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": false
+            },
+            "id": "eb44cc5c-6795-43b4-aa80-35c85648e7a2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "1"
+                        },
+                        "id": "a6e18e7c-f5c1-45e5-a801-782434126034"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "6",
+                          "value": {
+                            "type": "number",
+                            "value": 11
+                          }
+                        },
+                        "id": "f9f06cd5-94ab-453b-8b50-90aa8ea13e2e"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_SPRITE",
+                        "args": {
+                          "actorId": "0",
+                          "spriteSheetId": "973da58a-a61d-4e0d-96c1-dfe7d79f0ac6"
+                        },
+                        "id": "8235f50e-7dce-4f97-982d-8fe7b6f66c34"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You don't have any\ncarrot seeds..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "9f875f4a-de80-4127-840c-563141c0098b"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "player",
+                          "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                        },
+                        "id": "fe2f8523-0588-4c73-9124-3ffa79d2281e"
+                      }
+                    ]
+                  },
+                  "id": "184070aa-5781-4264-93fc-59023d9cd31a"
+                }
+              ],
+              "false": []
+            },
+            "id": "6bcf1aec-357e-4a5a-bd01-655e4322161f"
+          }
+        ]
+      },
+      "id": "332a63dd-02d2-4377-871e-0dd52f830c0c"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "_resourceType": "script",
+  "id": "4a833a70-d493-464e-8e46-138a95ff56f7",
+  "name": "Dig",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "0",
+        "spriteSheetId": "973da58a-a61d-4e0d-96c1-dfe7d79f0ac6"
+      },
+      "id": "7aaf59bd-d183-43fb-ad6f-4a56b242996c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You dug a hole."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0ef00e6f-0dfe-4182-aff9-9eff48c2575b"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+      },
+      "id": "3e177b63-f5c0-4f0e-a6cd-ef7d38214eaa"
+    }
+  ]
+}
